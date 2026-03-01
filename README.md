@@ -108,29 +108,29 @@ value       = "tech"
 description = "Bugs, errors, crashes"
 emoji       = "⚙️"
 
-  [[selectMenuOptions.fields]]
-  customId    = "problem"
-  label       = "Describe the issue"
-  style       = "paragraph"   # "short" | "paragraph"
-  placeholder = "Describe what happened in detail..."
-  required    = true
+[[selectMenuOptions.fields]]
+customId    = "problem"
+label       = "Describe the issue"
+style       = "paragraph"   # "short" | "paragraph"
+placeholder = "Describe what happened in detail..."
+required    = true
 
-  [[selectMenuOptions.fields]]
-  customId    = "steps"
-  label       = "Steps to reproduce"
-  style       = "paragraph"
-  required    = false
+[[selectMenuOptions.fields]]
+customId    = "steps"
+label       = "Steps to reproduce"
+style       = "paragraph"
+required    = false
 
 [[selectMenuOptions]]
 label = "Other"
 value = "other"
 emoji = "❓"
 
-  [[selectMenuOptions.fields]]
-  customId = "message"
-  label    = "Your question"
-  style    = "paragraph"
-  required = true
+[[selectMenuOptions.fields]]
+customId = "message"
+label    = "Your question"
+style    = "paragraph"
+required = true
 ```
 
 > **Tip:** Discord modals support a maximum of **5 fields** per topic (`[[selectMenuOptions.fields]]`).
