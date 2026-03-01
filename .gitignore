@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.js.map
+database.sqlite
+database.sqlite-wal
+database.sqlite-shm
+configs/
