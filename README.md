@@ -188,7 +188,7 @@ User clicks "Open a ticket" button
 
 ## Adding a Language
 
-1. Copy `src/i18n/ru.ts` → `src/i18n/<lang>.ts`
+1. Copy `src/i18n/en.ts` → `src/i18n/<lang>.ts`
 2. Translate all string values
 3. Import and register it in `src/i18n/index.ts`
 4. Set `language = "<lang>"` in `configs/global.toml`
